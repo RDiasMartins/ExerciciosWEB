@@ -8,9 +8,9 @@
     <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet"/>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <center>
-            <div class="caixa">
+            <div class="caixaForm">
                 <h2> Agendamento </h2>
                 <hr>
                 <form action="recebe_agendamento.php" method="POST">

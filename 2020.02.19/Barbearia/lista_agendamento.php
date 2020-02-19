@@ -16,7 +16,7 @@
                             <br/>
                     ';
                 echo'
-                    <table class="table table-light table-striped table-hover" width="50%">
+                    <table class="table table-light table-hover" width="50%">
                         <thead>
                             <tr>
                                 <th>Nome</th>
