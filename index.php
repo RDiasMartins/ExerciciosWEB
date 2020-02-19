@@ -5,4 +5,4 @@
 <br/>
 
 //Links
-<a href="barbearia"> Barbearia </a>
+<a href="2020.02.19/barbearia"> Barbearia </a>
