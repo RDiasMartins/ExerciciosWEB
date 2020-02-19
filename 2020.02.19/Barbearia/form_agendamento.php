@@ -15,19 +15,19 @@
                 <hr>
                 <form action="recebe_agendamento.php" method="POST">
                     <p>
-                        <input type="text" name="nome" class="form-control"  placeholder="Nome"/>
+                        <input type="text" name="nome" class="form-control" required placeholder="Nome"/>
                     </p>
                     <p>
-                        <input type="text" name="email" class="form-control"  placeholder="exemplo@dominio.com"/>
+                        <input type="text" name="email" class="form-control" required  placeholder="exemplo@dominio.com"/>
                     </p>
                     <p>
-                        <input type="text" maxlength="8" name="telefone" class="form-control"  placeholder="Telefone"/>
+                        <input type="text" maxlength="8" name="telefone" class="form-control" required  placeholder="Telefone"/>
                     </p>
                     <p>
-                        <input type="date" class="form-control"  name="data_agendamento"/>
+                        <input type="date" class="form-control" required  name="data_agendamento"/>
                     </p>
                     <p>
-                        <input type="time" class="form-control"  name="hora"/>
+                        <input type="time" class="form-control"  required name="hora"/>
                     </p>
                     <div class="float-right">
                         <a href="lista_agendamento.php" class="btn btn-outline-danger" role="button"> Consultar agenda </a>
