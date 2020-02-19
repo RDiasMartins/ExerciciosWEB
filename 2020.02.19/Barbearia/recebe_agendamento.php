@@ -75,7 +75,7 @@
                         <div class="mensagem col-sm-6 offset-sm-3 col-md-4 offset-md-4">
                             <h2 class = "text-center" style="color:black;"> Já existe cliente agendado no horário selecionado </h2>
                             <div class="float-right">
-                                <a href="form_agendamento.php" class="btn btn-outline-danger" role="button"> Tentar novamente </a>
+                                <a href="index.php" class="btn btn-outline-danger" role="button"> Tentar novamente </a>
                             </div>
                             <br/>
                         </div>
