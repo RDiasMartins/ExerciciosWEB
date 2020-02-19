@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <agenda>
+        <agendamento>
+            <nome>Beluzo</nome>
+            <email>beluzo@email.com</email>
+            <telefone>40028922</telefone>
+            <data_agendamento>2020-04-22</data_agendamento>
+            <hora>12:30</hora>
+        </agendamento>
+    </agenda>
