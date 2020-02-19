@@ -4,4 +4,4 @@
 
 <br/>
 
-<a href="2020.02.19/barbearia"> Barbearia </a>
+<a href="2020.02.19/Barbearia/index.php"> Barbearia </a>
