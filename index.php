@@ -15,8 +15,8 @@
     ?>
     <br/>
 
-    <table class="table table-light" width="50%">
-      <thead class="table-dark">
+    <table class="table table-light table-striped table-hover">
+      <thead class="thead-dark">
         <tr>
           <th>Data</th>
           <th>Link</th>
