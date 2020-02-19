@@ -20,7 +20,7 @@
                 <tr>
                     <th>#</th>
                     <th>Data</th>
-                    <th>Link</th>
+                    <th>Exercício</th>
                 </tr>
             </thead>
             <tbody>
@@ -30,4 +30,5 @@
                     <td> <a href="2020.02.19/Barbearia/index.php"> Barbearia </a> </td>
                 </tr>
             </tbody>
-            </html>
+</body>
+</html>
