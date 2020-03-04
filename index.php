@@ -29,6 +29,11 @@
                     <td>19-02-2020</td>
                     <td> <a href="2020.02.19/Barbearia/index.php"> Barbearia </a> </td>
                 </tr>
+				<tr>
+					<td>2</td>
+					<td>04-03-2020</td>
+					<td> <a href="2020.03.04/Exercicio1.html"> Validação JS </a> </td>
+				</tr>
             </tbody>
 </body>
 </html>
