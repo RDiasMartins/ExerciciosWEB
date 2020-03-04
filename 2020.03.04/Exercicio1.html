@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title> Exercício 1 </title>
+        <script>
+            function validaForm(){
+                var mensagemErro="";
+                var aux="0";
+                var nome=document.getElementById("nome").value;
+                var email=document.getElementById("email").value;
+                var sexo=document.getElementById("sexo").value;
+                var data=document.getElementById("data").value;
+
+                if(nome==""){
+
+                    mensagem1="Campo nome precisa ser preenchido!\n";
+                    mensagemErro=mensagem1;
+
+                }
+                else{
+                    aux++;
+                }
+
+
+                if(email==""){
+                    mensagem2="Campo E-mail precisa ser preenchido!\n";
+                    mensagemErro+=mensagem2;
+
+                }
+                else{
+                    aux++;
+                }
+
+
+                if(sexo==""){
+                    mensagem3="Campo sexo precisa ser preenchido!\n";
+                    mensagemErro+=mensagem3;
+
+                }
+                else{
+                    aux++;
+                }
+
+                if(data==""){
+                    mensagem4="Campo de data precisa ser preenchido!\n";
+                    mensagemErro+=mensagem4;
+
+                }
+                else{
+                    aux++;
+                }
+
+                if(aux==4){
+                    mensagem="Nome: '"+nome+"' \nEmail: '"+email+"'  \nSexo: '"+sexo+"' \nData de nascimento: '"+data+"' ";
+                    alert(mensagem);
+                }else{
+                    alert(mensagemErro);
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <fieldset>
+            <legend> Validação em JS </legend>
+            <form name="exercicio">
+                Nome: <input type="text" id="nome" name="nome" placeholder=" Nome"/> <br/>
+                Email: <input type="text" id="email" name="email" placeholder=" E-mail"/> <br/>
+                Sexo: <input type="text" id="sexo" name="sexo" placeholder=" Sexo"/> <br/>
+                Data de nascimento: <input type="date" id="data" name="data_nascimento"/> <br/>
+
+                <br/>
+
+                <input type="button" value="Validar" onclick="validaForm();"/>
+
+            </form>
+        </fieldset>
+    </body>
+</html>
