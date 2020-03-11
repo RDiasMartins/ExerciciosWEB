@@ -34,6 +34,11 @@
                         <td>04-03-2020</td>
                         <td> <a href="2020.03.04/Exercicio1.html"> Validação JS </a> </td>
                     </tr>
+					<tr>
+						<td>3</td>
+						<td>11-03-2020</td>
+						<td> <a href="2020.03.11/jogo_da_velha/index.php"> Jogo da Velha - JS </a> </td>
+					</tr>
                 </tbody>
             </table>
     </body>
