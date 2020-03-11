@@ -42,8 +42,12 @@
                     valida_sequencia(campo3, campo5, campo7)|| valida_sequencia(campo1,campo4,campo7)||
                     valida_sequencia(campo2,campo5,campo8) || valida_sequencia(campo3,campo6,campo9))
                 {
-                    alert("Ganhador:"+jogadorGanhador);
+                    alert("Ganhador: "+jogadorGanhador);
                 }
+                else if(contador==9){
+                    alert("Deu velha!");
+                }
+
 
             }
 

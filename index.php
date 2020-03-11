@@ -27,12 +27,12 @@
                     <tr>
                         <td>1</td>
                         <td>19-02-2020</td>
-                        <td> <a href="2020.02.19/Barbearia/index.php"> Barbearia </a> </td>
+                        <td> <a href="2020.02.19/barbearia/index.php"> Barbearia </a> </td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>04-03-2020</td>
-                        <td> <a href="2020.03.04/Exercicio1.html"> Validação JS </a> </td>
+                        <td> <a href="2020.03.04/validarjs/ValidarJS.html"> Validação JS </a> </td>
                     </tr>
 					<tr>
 						<td>3</td>
